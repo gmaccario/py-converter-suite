@@ -6,10 +6,10 @@ The purpose of this Converter is to read a text file that contains thousands of 
 aaaaaaaa\
 bbbbbbbb\
 cccccccc\
-dddddddd\
+dddddddd
 
 ## Output file (snippet):
 INSERT INTO your-tablename (your-columnname) VALUES ("cccccccc");\
 INSERT INTO your-tablename (your-columnname) VALUES ("aaaaaaaa");\
 INSERT INTO your-tablename (your-columnname) VALUES ("dddddddd");\
-INSERT INTO your-tablename (your-columnname) VALUES ("bbbbbbbb");\
+INSERT INTO your-tablename (your-columnname) VALUES ("bbbbbbbb");
