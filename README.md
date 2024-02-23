@@ -2,6 +2,9 @@
 
 The purpose of this Converter is to read a text file that contains thousands of words (one per line), and create an output file that contains all the words wrapped into INSERT statements.
 
+## Usage
+python __init__.py your-input.txt your-output.sql your-tablename your-columnname
+
 ## Input file (snippet):
 aaaaaaaa\
 bbbbbbbb\
